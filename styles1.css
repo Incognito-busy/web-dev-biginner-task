@@ -1,0 +1,25 @@
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 50px 10px;
+    }
+
+    header, footer {
+        padding: 0.5rem;
+    }
+}
+
